@@ -2,6 +2,278 @@
   title: Facebook / Adwords Comparison
   layout: newspaper
   elements:
+  - name: Overall Clicks
+    title: Overall Clicks
+    model: facebook_ads
+    explore: ads_compare
+    type: single_value
+    fields:
+    - ads_compare.clicks
+    sorts:
+    - ads_compare.clicks desc
+    limit: 500
+    column_limit: 50
+    custom_color_enabled: false
+    custom_color: forestgreen
+    show_single_value_title: true
+    show_comparison: false
+    comparison_type: value
+    comparison_reverse_colors: false
+    show_comparison_label: true
+    value_labels: legend
+    label_type: labPer
+    stacking: ''
+    show_value_labels: false
+    label_density: 25
+    legend_position: center
+    x_axis_gridlines: false
+    y_axis_gridlines: true
+    show_view_names: true
+    limit_displayed_rows: false
+    y_axis_combined: true
+    show_y_axis_labels: true
+    show_y_axis_ticks: true
+    y_axis_tick_density: default
+    y_axis_tick_density_custom: 5
+    show_x_axis_label: true
+    show_x_axis_ticks: true
+    x_axis_scale: auto
+    y_axis_scale_mode: linear
+    ordering: none
+    show_null_labels: false
+    show_totals_labels: false
+    show_silhouette: false
+    totals_color: "#808080"
+    series_types: {}
+    row: 0
+    col: 0
+    width: 8
+    height: 2
+  - name: Overall Impressions
+    title: Overall Impressions
+    model: facebook_ads
+    explore: ads_compare
+    type: single_value
+    fields:
+    - ads_compare.impresssions
+    limit: 500
+    column_limit: 50
+    custom_color_enabled: false
+    custom_color: forestgreen
+    show_single_value_title: true
+    show_comparison: false
+    comparison_type: value
+    comparison_reverse_colors: false
+    show_comparison_label: true
+    value_labels: legend
+    label_type: labPer
+    stacking: ''
+    show_value_labels: false
+    label_density: 25
+    legend_position: center
+    x_axis_gridlines: false
+    y_axis_gridlines: true
+    show_view_names: true
+    limit_displayed_rows: false
+    y_axis_combined: true
+    show_y_axis_labels: true
+    show_y_axis_ticks: true
+    y_axis_tick_density: default
+    y_axis_tick_density_custom: 5
+    show_x_axis_label: true
+    show_x_axis_ticks: true
+    x_axis_scale: auto
+    y_axis_scale_mode: linear
+    ordering: none
+    show_null_labels: false
+    show_totals_labels: false
+    show_silhouette: false
+    totals_color: "#808080"
+    series_types: {}
+    row: 0
+    col: 8
+    width: 8
+    height: 2
+  - name: Overall Cost per Click
+    title: Overall Cost per Click
+    model: facebook_ads
+    explore: ads_compare
+    type: single_value
+    fields:
+    - ads_compare.cost_per_click
+    limit: 500
+    column_limit: 50
+    custom_color_enabled: false
+    custom_color: forestgreen
+    show_single_value_title: true
+    show_comparison: false
+    comparison_type: value
+    comparison_reverse_colors: false
+    show_comparison_label: true
+    value_labels: legend
+    label_type: labPer
+    stacking: ''
+    show_value_labels: false
+    label_density: 25
+    legend_position: center
+    x_axis_gridlines: false
+    y_axis_gridlines: true
+    show_view_names: true
+    limit_displayed_rows: false
+    y_axis_combined: true
+    show_y_axis_labels: true
+    show_y_axis_ticks: true
+    y_axis_tick_density: default
+    y_axis_tick_density_custom: 5
+    show_x_axis_label: true
+    show_x_axis_ticks: true
+    x_axis_scale: auto
+    y_axis_scale_mode: linear
+    ordering: none
+    show_null_labels: false
+    show_totals_labels: false
+    show_silhouette: false
+    totals_color: "#808080"
+    series_types: {}
+    row: 0
+    col: 16
+    width: 8
+    height: 2
+  - name: Overall Campaign Count
+    title: Overall Campaign Count
+    model: facebook_ads
+    explore: ads_compare
+    type: single_value
+    fields:
+    - ads_compare.count_campaigns
+    limit: 500
+    column_limit: 50
+    custom_color_enabled: false
+    custom_color: forestgreen
+    show_single_value_title: true
+    show_comparison: false
+    comparison_type: value
+    comparison_reverse_colors: false
+    show_comparison_label: true
+    value_labels: legend
+    label_type: labPer
+    stacking: ''
+    show_value_labels: false
+    label_density: 25
+    legend_position: center
+    x_axis_gridlines: false
+    y_axis_gridlines: true
+    show_view_names: true
+    limit_displayed_rows: false
+    y_axis_combined: true
+    show_y_axis_labels: true
+    show_y_axis_ticks: true
+    y_axis_tick_density: default
+    y_axis_tick_density_custom: 5
+    show_x_axis_label: true
+    show_x_axis_ticks: true
+    x_axis_scale: auto
+    y_axis_scale_mode: linear
+    ordering: none
+    show_null_labels: false
+    show_totals_labels: false
+    show_silhouette: false
+    totals_color: "#808080"
+    series_types: {}
+    row: 2
+    col: 0
+    width: 8
+    height: 2
+  - name: Overall Spend
+    title: Overall Spend
+    model: facebook_ads
+    explore: ads_compare
+    type: single_value
+    fields:
+    - ads_compare.spend
+    limit: 500
+    column_limit: 50
+    custom_color_enabled: false
+    custom_color: forestgreen
+    show_single_value_title: true
+    show_comparison: false
+    comparison_type: value
+    comparison_reverse_colors: false
+    show_comparison_label: true
+    value_labels: legend
+    label_type: labPer
+    stacking: ''
+    show_value_labels: false
+    label_density: 25
+    legend_position: center
+    x_axis_gridlines: false
+    y_axis_gridlines: true
+    show_view_names: true
+    limit_displayed_rows: false
+    y_axis_combined: true
+    show_y_axis_labels: true
+    show_y_axis_ticks: true
+    y_axis_tick_density: default
+    y_axis_tick_density_custom: 5
+    show_x_axis_label: true
+    show_x_axis_ticks: true
+    x_axis_scale: auto
+    y_axis_scale_mode: linear
+    ordering: none
+    show_null_labels: false
+    show_totals_labels: false
+    show_silhouette: false
+    totals_color: "#808080"
+    series_types: {}
+    row: 2
+    col: 8
+    width: 8
+    height: 2
+  - name: Overall Ads Count
+    title: Overall Ads Count
+    model: facebook_ads
+    explore: ads_compare
+    type: single_value
+    fields:
+    - ads_compare.count
+    limit: 500
+    column_limit: 50
+    custom_color_enabled: false
+    custom_color: forestgreen
+    show_single_value_title: true
+    show_comparison: false
+    comparison_type: value
+    comparison_reverse_colors: false
+    show_comparison_label: true
+    value_labels: legend
+    label_type: labPer
+    stacking: ''
+    show_value_labels: false
+    label_density: 25
+    legend_position: center
+    x_axis_gridlines: false
+    y_axis_gridlines: true
+    show_view_names: true
+    limit_displayed_rows: false
+    y_axis_combined: true
+    show_y_axis_labels: true
+    show_y_axis_ticks: true
+    y_axis_tick_density: default
+    y_axis_tick_density_custom: 5
+    show_x_axis_label: true
+    show_x_axis_ticks: true
+    x_axis_scale: auto
+    y_axis_scale_mode: linear
+    ordering: none
+    show_null_labels: false
+    show_totals_labels: false
+    show_silhouette: false
+    totals_color: "#808080"
+    series_types: {}
+    row: 2
+    col: 16
+    width: 8
+    height: 2
   - name: Clicks Breakdown
     title: Clicks Breakdown
     model: facebook_ads
@@ -166,188 +438,6 @@
     col: 18
     width: 6
     height: 5
-  - name: Overall Ads Count
-    title: Overall Ads Count
-    model: facebook_ads
-    explore: ads_compare
-    type: single_value
-    fields:
-    - ads_compare.count
-    limit: 500
-    column_limit: 50
-    custom_color_enabled: false
-    custom_color: forestgreen
-    show_single_value_title: true
-    show_comparison: false
-    comparison_type: value
-    comparison_reverse_colors: false
-    show_comparison_label: true
-    value_labels: legend
-    label_type: labPer
-    stacking: ''
-    show_value_labels: false
-    label_density: 25
-    legend_position: center
-    x_axis_gridlines: false
-    y_axis_gridlines: true
-    show_view_names: true
-    limit_displayed_rows: false
-    y_axis_combined: true
-    show_y_axis_labels: true
-    show_y_axis_ticks: true
-    y_axis_tick_density: default
-    y_axis_tick_density_custom: 5
-    show_x_axis_label: true
-    show_x_axis_ticks: true
-    x_axis_scale: auto
-    y_axis_scale_mode: linear
-    ordering: none
-    show_null_labels: false
-    show_totals_labels: false
-    show_silhouette: false
-    totals_color: "#808080"
-    series_types: {}
-    row: 2
-    col: 18
-    width: 6
-    height: 2
-  - name: Overall Impressions
-    title: Overall Impressions
-    model: facebook_ads
-    explore: ads_compare
-    type: single_value
-    fields:
-    - ads_compare.impresssions
-    limit: 500
-    column_limit: 50
-    custom_color_enabled: false
-    custom_color: forestgreen
-    show_single_value_title: true
-    show_comparison: false
-    comparison_type: value
-    comparison_reverse_colors: false
-    show_comparison_label: true
-    value_labels: legend
-    label_type: labPer
-    stacking: ''
-    show_value_labels: false
-    label_density: 25
-    legend_position: center
-    x_axis_gridlines: false
-    y_axis_gridlines: true
-    show_view_names: true
-    limit_displayed_rows: false
-    y_axis_combined: true
-    show_y_axis_labels: true
-    show_y_axis_ticks: true
-    y_axis_tick_density: default
-    y_axis_tick_density_custom: 5
-    show_x_axis_label: true
-    show_x_axis_ticks: true
-    x_axis_scale: auto
-    y_axis_scale_mode: linear
-    ordering: none
-    show_null_labels: false
-    show_totals_labels: false
-    show_silhouette: false
-    totals_color: "#808080"
-    series_types: {}
-    row: 2
-    col: 6
-    width: 6
-    height: 2
-  - name: Overall Clicks
-    title: Overall Clicks
-    model: facebook_ads
-    explore: ads_compare
-    type: single_value
-    fields:
-    - ads_compare.clicks
-    sorts:
-    - ads_compare.clicks desc
-    limit: 500
-    column_limit: 50
-    custom_color_enabled: false
-    custom_color: forestgreen
-    show_single_value_title: true
-    show_comparison: false
-    comparison_type: value
-    comparison_reverse_colors: false
-    show_comparison_label: true
-    value_labels: legend
-    label_type: labPer
-    stacking: ''
-    show_value_labels: false
-    label_density: 25
-    legend_position: center
-    x_axis_gridlines: false
-    y_axis_gridlines: true
-    show_view_names: true
-    limit_displayed_rows: false
-    y_axis_combined: true
-    show_y_axis_labels: true
-    show_y_axis_ticks: true
-    y_axis_tick_density: default
-    y_axis_tick_density_custom: 5
-    show_x_axis_label: true
-    show_x_axis_ticks: true
-    x_axis_scale: auto
-    y_axis_scale_mode: linear
-    ordering: none
-    show_null_labels: false
-    show_totals_labels: false
-    show_silhouette: false
-    totals_color: "#808080"
-    series_types: {}
-    row: 2
-    col: 0
-    width: 6
-    height: 2
-  - name: Overall Spend
-    title: Overall Spend
-    model: facebook_ads
-    explore: ads_compare
-    type: single_value
-    fields:
-    - ads_compare.spend
-    limit: 500
-    column_limit: 50
-    custom_color_enabled: false
-    custom_color: forestgreen
-    show_single_value_title: true
-    show_comparison: false
-    comparison_type: value
-    comparison_reverse_colors: false
-    show_comparison_label: true
-    value_labels: legend
-    label_type: labPer
-    stacking: ''
-    show_value_labels: false
-    label_density: 25
-    legend_position: center
-    x_axis_gridlines: false
-    y_axis_gridlines: true
-    show_view_names: true
-    limit_displayed_rows: false
-    y_axis_combined: true
-    show_y_axis_labels: true
-    show_y_axis_ticks: true
-    y_axis_tick_density: default
-    y_axis_tick_density_custom: 5
-    show_x_axis_label: true
-    show_x_axis_ticks: true
-    x_axis_scale: auto
-    y_axis_scale_mode: linear
-    ordering: none
-    show_null_labels: false
-    show_totals_labels: false
-    show_silhouette: false
-    totals_color: "#808080"
-    series_types: {}
-    row: 2
-    col: 12
-    width: 6
-    height: 2
   - name: Spend and CPC
     title: Spend and CPC
     model: facebook_ads
@@ -519,120 +609,6 @@
     col: 12
     width: 12
     height: 7
-  - name: text_2
-    type: text
-    body_text: <img src="https://cdn.filepicker.io/api/file/N0wYsVjjQIWoNFPrLyUJ"
-      width="85%" height="85%"/>
-    row: 0
-    col: 4
-    width: 3
-    height: 2
-  - name: text_1
-    type: text
-    body_text: <img src="http://www.tentacleinbound.com/wp-content/uploads/2016/06/google-adwords-logo.png"
-      width="80%" height="80%"/>
-    row: 0
-    col: 7
-    width: 3
-    height: 2
-  - name: text_3
-    type: text
-    body_text: <img src="https://www.planhat.com/img/integrations/segment-logo--md5--76d8aef7a33cd5dbc8c51ed33125ec66.png"
-      width="100%" height="100%"/>
-    row: 0
-    col: 0
-    width: 4
-    height: 2
-  - name: Overall Campaign Count
-    title: Overall Campaign Count
-    model: facebook_ads
-    explore: ads_compare
-    type: single_value
-    fields:
-    - ads_compare.count_campaigns
-    limit: 500
-    column_limit: 50
-    custom_color_enabled: false
-    custom_color: forestgreen
-    show_single_value_title: true
-    show_comparison: false
-    comparison_type: value
-    comparison_reverse_colors: false
-    show_comparison_label: true
-    value_labels: legend
-    label_type: labPer
-    stacking: ''
-    show_value_labels: false
-    label_density: 25
-    legend_position: center
-    x_axis_gridlines: false
-    y_axis_gridlines: true
-    show_view_names: true
-    limit_displayed_rows: false
-    y_axis_combined: true
-    show_y_axis_labels: true
-    show_y_axis_ticks: true
-    y_axis_tick_density: default
-    y_axis_tick_density_custom: 5
-    show_x_axis_label: true
-    show_x_axis_ticks: true
-    x_axis_scale: auto
-    y_axis_scale_mode: linear
-    ordering: none
-    show_null_labels: false
-    show_totals_labels: false
-    show_silhouette: false
-    totals_color: "#808080"
-    series_types: {}
-    row: 0
-    col: 18
-    width: 6
-    height: 2
-  - name: Overall Cost per Click
-    title: Overall Cost per Click
-    model: facebook_ads
-    explore: ads_compare
-    type: single_value
-    fields:
-    - ads_compare.cost_per_click
-    limit: 500
-    column_limit: 50
-    custom_color_enabled: false
-    custom_color: forestgreen
-    show_single_value_title: true
-    show_comparison: false
-    comparison_type: value
-    comparison_reverse_colors: false
-    show_comparison_label: true
-    value_labels: legend
-    label_type: labPer
-    stacking: ''
-    show_value_labels: false
-    label_density: 25
-    legend_position: center
-    x_axis_gridlines: false
-    y_axis_gridlines: true
-    show_view_names: true
-    limit_displayed_rows: false
-    y_axis_combined: true
-    show_y_axis_labels: true
-    show_y_axis_ticks: true
-    y_axis_tick_density: default
-    y_axis_tick_density_custom: 5
-    show_x_axis_label: true
-    show_x_axis_ticks: true
-    x_axis_scale: auto
-    y_axis_scale_mode: linear
-    ordering: none
-    show_null_labels: false
-    show_totals_labels: false
-    show_silhouette: false
-    totals_color: "#808080"
-    series_types: {}
-    row: 0
-    col: 12
-    width: 6
-    height: 2
   - name: Top 25 Ads by Number of Clicks
     title: Top 25 Ads by Number of Clicks
     model: facebook_ads

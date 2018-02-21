@@ -1,4 +1,4 @@
-connection: "pb_n_jays_postgres"
+connection: "production"
 
 # include all the views
 include: "*.view"
